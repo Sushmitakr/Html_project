@@ -1,0 +1,172 @@
+h1{
+	background: no-repeat;
+	text-indent: 1px;
+	width: 127px;
+	height:127px;
+
+
+}
+.nav{
+	
+	margin-top: -157px;
+}
+li {
+    background-color: #dddddd;
+    display:inline;
+    padding-right: 10px;
+    float:left;
+}
+li a {
+	text-decoration: none;
+	color:black;
+}
+img.img1
+{
+	width: 100%;
+}
+.content span.subtitle
+{
+	display: block;
+    margin-top: 5px;
+    color: #444;
+    font-weight: 300;
+    text-transform: none;
+}
+
+ 
+.nav ul {
+  list-style: none;
+  background-color: brown;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  background-color: brown;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: brown;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
+.main-menu
+{
+	padding:10px;
+
+}
+
+
+#footer.dark, .dark #footer {
+    background-color: #333;
+    color: #CCC;
+    border-top-color: rgba(0,0,0,.2);
+}
+#footer {
+    position: relative;
+    
+    border-top: 5px solid rgba(0,0,0,.2);
+}
+
+#footer{
+	display:black;
+}
+
+.dark .widget h4 {
+    color: #DDD;
+}
+.widget>h4 {
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.widget>h4 {
+    text-transform: uppercase;
+}
+
+
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    }
+
+.foot
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #000;
+}
+ul.social
+{
+
+}
+ul.social li
+{
+  background: none;
+}
+.grid_6.copy
+{
+  float: left;
+}
+.container_12.foots
+{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
